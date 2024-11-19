@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://bmkvfouncnkfl"]
+
+[ext_resource type="Texture2D" uid="uid://cqjdjrsmtb48o" path="res://assets/kenney_space-shooter-redux/PNG/Lasers/laserRed01.png" id="1_ps7nn"]
+[ext_resource type="Script" path="res://laser.gd" id="2_i28db"]
+
+[node name="laser" type="Node2D"]
+
+[node name="laserGraphic" type="Sprite2D" parent="."]
+texture = ExtResource("1_ps7nn")
+script = ExtResource("2_i28db")
